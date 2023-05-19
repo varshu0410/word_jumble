@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgapp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="275dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60sp"
+        android:fontFamily="cursive"
+        android:text="WORD JUMBLE"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="32sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100sp"
+        android:background="#FFEB3B"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="WORD"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#090000"
+            android:textColorLink="#120000" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/word"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="60dp"
+        android:background="#FFF"
+        android:gravity="center"
+        android:inputType="textPersonName|textCapCharacters"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:textColor="#332FA2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFEB3B"
+        android:fontFamily="serif"
+        android:text="CLUE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#100000"
+        />
+
+    <EditText
+        android:id="@+id/clue"
+        android:padding="10dp"
+        android:background="#FFF"
+        android:gravity="center"
+        android:textColor="#332FA2"
+        android:textSize="15dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="START"
+        android:onClick="pagetwo"
+        android:textColor="#FAF7F7" />
+
+
+</LinearLayout>
